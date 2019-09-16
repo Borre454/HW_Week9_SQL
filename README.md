@@ -18,7 +18,6 @@
   - Perhaps we were too hasty in changing GROUCHO to HARPO. It turns out that GROUCHO was the correct name after all! In a single query, if the first name of the actor is currently HARPO, change it to GROUCHO.
 
 - You cannot locate the schema of the address table. Which query would you use to re-create it?
-Hint: https://dev.mysql.com/doc/refman/5.7/en/show-create-table.html
 
 - Use JOIN to display the first and last names, as well as the address, of each staff member. Use the tables staff and address:
   - Use JOIN to display the total amount rung up by each staff member in August of 2005. Use tables staff and payment.
@@ -37,6 +36,5 @@ Total amount paid
   - Write a query to display for each store its store ID, city, and country.
   - List the top five genres in gross revenue in descending order. (Hint: you may need to use the following tables: category, film_category, inventory, payment, and rental.)
 
-- In your new role as an executive, you would like to have an easy way of viewing the Top five genres by gross revenue. Use the solution from the problem above to create a view. If you haven't solved 7h, you can substitute another query to create a view.
-  - How would you display the view that you created in 8a?
+- In your new role as an executive, you would like to have an easy way of viewing the Top five genres by gross revenue. Use the solution from the problem above to create a view.
   - You find that you no longer need the view top_five_genres. Write a query to delete it.
